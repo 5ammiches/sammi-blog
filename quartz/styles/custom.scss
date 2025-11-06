@@ -1,3 +1,48 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// Custom styles for Sammi's Blog
+// Color palette: Light gray (#F5F5F5), Orange (#FF6B35), Blue (#4A5568), Black (#000000)
+
+// Custom post card styling
+.article-list-item {
+  border-left: 4px solid var(--secondary);
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s ease;
+  
+  &:hover {
+    transform: translateX(4px);
+  }
+}
+
+// Custom sidebar styling
+.left {
+  border-right: 1px solid var(--lightgray);
+}
+
+// Category and tag badges
+.tag-pill {
+  background-color: var(--secondary);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.875rem;
+  margin-right: 0.5rem;
+  
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+// Post metadata
+.content-meta {
+  color: var(--gray);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+// Reading time estimate
+.reading-time {
+  color: var(--secondary);
+  font-weight: 500;
+}
