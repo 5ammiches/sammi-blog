@@ -1,0 +1,50 @@
+.back-button-container {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+
+  .back-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: var(--lightgray);
+    color: var(--darkgray);
+    border: 1px solid var(--gray);
+    border-radius: 6px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+
+    &:hover {
+      background: var(--gray);
+      color: var(--light);
+      border-color: var(--darkgray);
+    }
+
+    .back-icon {
+      font-size: 1rem;
+      line-height: 1;
+    }
+
+    .back-text {
+      line-height: 1;
+    }
+  }
+}
+
+// Dark mode adjustments
+@media (prefers-color-scheme: dark) {
+  .back-button-container {
+    .back-button {
+      background: var(--light);
+      border-color: var(--lightgray);
+
+      &:hover {
+        background: var(--gray);
+        border-color: var(--darkgray);
+      }
+    }
+  }
+}

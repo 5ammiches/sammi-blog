@@ -1,0 +1,91 @@
+.profile-header {
+  background: transparent;
+  color: var(--dark);
+  padding: 1rem 1rem;
+  margin-bottom: 2rem;
+
+  .profile-header-content {
+    max-width: 800px;
+    margin: 0 auto;
+
+    .blog-title {
+      text-align: center;
+      margin: 0 0 2rem 0;
+      font-size: 2.5rem;
+      font-weight: 700;
+
+      a {
+        color: var(--dark);
+        text-decoration: none;
+
+        &:hover {
+          color: var(--secondary);
+        }
+      }
+    }
+
+    .profile-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+
+      .profile-picture {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 4px solid var(--secondary);
+        position: relative;
+
+        img {
+          width: 100%;
+          height: 110%;
+          object-fit: cover;
+          object-position: center 25%;
+          transform: translateY(-16px);
+        }
+      }
+
+      .profile-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        text-align: center;
+
+        .profile-link {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: var(--dark);
+          text-decoration: none;
+          transition: all 0.2s ease;
+          padding: 0.25rem;
+
+          .profile-icon {
+            font-size: 1.8rem;
+            width: 28px;
+            height: 28px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Dark mode adjustments
+:root[saved-theme="dark"] .profile-header {
+  background: transparent;
+  color: #ffffff;
+
+  .profile-header-content {
+    .blog-title a {
+      color: #ffffff !important;
+    }
+
+    .profile-section .profile-links .profile-link {
+      color: #ffffff !important;
+    }
+  }
+}

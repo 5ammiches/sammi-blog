@@ -1,0 +1,26 @@
+.simple-page-title {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+
+  a {
+    color: var(--dark);
+    text-decoration: none;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: var(--secondary);
+    }
+  }
+}
+
+// Dark mode adjustments
+:root[saved-theme="dark"] .simple-page-title {
+  a {
+    color: #ffffff !important;
+
+    &:hover {
+      color: var(--secondary);
+    }
+  }
+}

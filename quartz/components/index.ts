@@ -23,6 +23,11 @@ import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
+import PaginatedBlogList from "./PaginatedBlogList"
+import BackButton from "./BackButton"
+import ProfileHeader from "./ProfileHeader"
+import SimplePageTitle from "./SimplePageTitle"
+import InlineSearch from "./InlineSearch"
 
 export {
   ArticleTitle,
@@ -50,4 +55,9 @@ export {
   Comments,
   Flex,
   ConditionalRender,
+  PaginatedBlogList,
+  BackButton,
+  ProfileHeader,
+  SimplePageTitle,
+  InlineSearch,
 }

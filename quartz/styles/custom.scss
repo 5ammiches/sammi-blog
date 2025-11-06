@@ -9,7 +9,7 @@
   padding-left: 1rem;
   margin-bottom: 1.5rem;
   transition: transform 0.2s ease;
-  
+
   &:hover {
     transform: translateX(4px);
   }
@@ -28,7 +28,7 @@
   border-radius: 1rem;
   font-size: 0.875rem;
   margin-right: 0.5rem;
-  
+
   &:hover {
     opacity: 0.8;
   }
@@ -45,4 +45,33 @@
 .reading-time {
   color: var(--secondary);
   font-weight: 500;
+}
+
+// Custom styles for header search
+.page-header .flex-component .search {
+  max-width: 800px;
+  min-width: 500px;
+  flex-grow: 1;
+
+  @media all and (max-width: 800px) {
+    max-width: 400px;
+    min-width: 300px;
+  }
+}
+
+// Custom styles for header inline search
+.page-header .flex-component .inline-search {
+  max-width: 800px;
+  min-width: 500px;
+  flex-grow: 1;
+
+  @media all and (max-width: 800px) {
+    max-width: 400px;
+    min-width: 300px;
+  }
+}
+
+// Ensure header search button takes full width
+.page-header .search .search-button {
+  width: 100%;
 }
