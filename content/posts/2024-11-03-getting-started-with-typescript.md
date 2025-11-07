@@ -7,7 +7,7 @@ tags:
   - types
 categories:
   - Development
-draft: true
+draft: false
 description: A comprehensive guide to getting started with TypeScript and why it's essential for modern JavaScript development.
 ---
 

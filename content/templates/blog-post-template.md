@@ -7,8 +7,6 @@ draft: true
 description: ""
 ---
 
-# {{title}}
-
 Write your blog post content here...
 
 ## Section 1
