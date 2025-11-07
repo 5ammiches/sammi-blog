@@ -1,6 +1,6 @@
 ---
-title: "{{title}}"
-date: {{date:YYYY-MM-DD}}
+date:
+  "{ date:YYYY-MM-DD }":
 tags: []
 categories: []
 draft: true
