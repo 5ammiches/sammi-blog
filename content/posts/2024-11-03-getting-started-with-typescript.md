@@ -1,10 +1,14 @@
 ---
-title: "Getting Started with TypeScript"
+title: Getting Started with TypeScript
 date: 2024-11-03
-tags: ["typescript", "javascript", "types"]
-categories: ["Development"]
-draft: false
-description: "A comprehensive guide to getting started with TypeScript and why it's essential for modern JavaScript development."
+tags:
+  - typescript
+  - javascript
+  - types
+categories:
+  - Development
+draft: true
+description: A comprehensive guide to getting started with TypeScript and why it's essential for modern JavaScript development.
 ---
 
 <!--# Getting Started with TypeScript-->
