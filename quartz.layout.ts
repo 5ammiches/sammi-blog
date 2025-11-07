@@ -19,13 +19,7 @@ export const sharedPageComponents: SharedLayout = {
     }),
   ],
   afterBody: [],
-  footer: Component.Footer({
-    links: {
-      GitHub: "https://github.com/yourusername",
-      Twitter: "https://twitter.com/yourusername",
-      LinkedIn: "https://linkedin.com/in/yourusername",
-    },
-  }),
+  footer: Component.Footer(),
 }
 
 // components for pages that display a single page (e.g. a single note)
